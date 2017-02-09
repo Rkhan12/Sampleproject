@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Sampleproject</string>
 
-    <string name="hello_world">Change text</string>
+    <string name="hello_world">Change happen</string>
     <string name="action_settings">Settings</string>
 </resources>
