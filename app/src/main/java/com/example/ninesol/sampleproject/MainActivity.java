@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-//files
+
 public class MainActivity extends Activity {
 public Button button,button2;
 public TextView tv;
@@ -21,14 +21,12 @@ public TextView tv;
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-             //Frhan
-                tv.setText("Farhan");
+             tv.setText("Farhan");
             }
         });
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Raheel
                 tv.setText("Raheel");
             }
         });
