@@ -21,13 +21,13 @@ public TextView tv;
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-             tv.setText("First button click");
+             tv.setText("Farhan");
             }
         });
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                tv.setText("Second button click");
+                tv.setText("Raheel");
             }
         });
     }
