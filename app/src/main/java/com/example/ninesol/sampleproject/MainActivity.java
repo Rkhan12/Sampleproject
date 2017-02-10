@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 
 public class MainActivity extends Activity {
-public Button button;
+public Button button,button2;
 public TextView tv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,10 +21,17 @@ public TextView tv;
         //Cast views here
         button=(Button)findViewById(R.id.button);
         tv=(TextView)findViewById(R.id.tv);
+        button2=(Button)findViewById(R.id.button2);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-             tv.setText("Hello there");
+             tv.setText("First button click");
+            }
+        });
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                tv.setText("Second button click");
             }
         });
     }
