@@ -14,7 +14,9 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 // why are you deleting this
         // Raheel side
+        //Cast views here
     }
+
 
 
     @Override
