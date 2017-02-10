@@ -15,10 +15,6 @@ public TextView tv;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-// why are you deleting this
-        // Raheel side
-        //Cast views here
         button=(Button)findViewById(R.id.button);
         tv=(TextView)findViewById(R.id.tv);
         button2=(Button)findViewById(R.id.button2);
